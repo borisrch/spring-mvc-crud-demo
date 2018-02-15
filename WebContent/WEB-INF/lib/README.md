@@ -1,85 +1,85 @@
 ## lib
 
-antlr-2.7.7.jar
-c3p0-0.9.5.2.jar
-classmate-1.3.0.jar
-dom4j-1.6.1.jar
-hibernate-c3p0-5.2.13.Final.jar
-hibernate-commons-annotations-5.0.1.Final.jar
-hibernate-core-5.2.13.Final.jar
-hibernate-jpa-2.1-api-1.0.0.Final.jar
-jaxb-api-2.3.0.jar
-jandex-2.0.3.Final.jar
-jboss-logging-3.3.1.Final.jar
-javax.servlet.jsp.jstl-1.2.1.jar
-jaxb-core-2.3.0.jar
-jboss-transaction-api_1.2_spec-1.0.1.Final.jar
-javax.servlet.jsp.jstl-api-1.2.1.jar
-jaxb-impl-2.3.0.jar
-javax.activation-1.2.0.jar
-javassist-3.22.0-GA.jar
-mchange-commons-java-0.2.11.jar
-mysql-connector-java-5.1.39-bin.jar
-spring-instrument-5.0.3.RELEASE-javadoc.jar
-spring-aop-5.0.3.RELEASE.jar
-spring-beans-5.0.3.RELEASE-sources.jar
-spring-websocket-5.0.3.RELEASE-javadoc.jar
-spring-webmvc-5.0.3.RELEASE-javadoc.jar
-spring-jdbc-5.0.3.RELEASE-javadoc.jar
-spring-webflux-5.0.3.RELEASE-javadoc.jar
-spring-jdbc-5.0.3.RELEASE-sources.jar
-spring-beans-5.0.3.RELEASE-javadoc.jar
-spring-aspects-5.0.3.RELEASE-sources.jar
-spring-context-indexer-5.0.3.RELEASE.jar
-spring-jms-5.0.3.RELEASE-javadoc.jar
-spring-core-5.0.3.RELEASE-sources.jar
-spring-expression-5.0.3.RELEASE-javadoc.jar
-spring-context-5.0.3.RELEASE-sources.jar
-spring-beans-5.0.3.RELEASE.jar
-spring-context-support-5.0.3.RELEASE-javadoc.jar
-spring-context-support-5.0.3.RELEASE-sources.jar
-spring-context-support-5.0.3.RELEASE.jar
-spring-aop-5.0.3.RELEASE-sources.jar
-spring-websocket-5.0.3.RELEASE.jar
-spring-aspects-5.0.3.RELEASE.jar
-spring-messaging-5.0.3.RELEASE-javadoc.jar
-spring-instrument-5.0.3.RELEASE-sources.jar
-spring-context-indexer-5.0.3.RELEASE-javadoc.jar
-spring-aspects-5.0.3.RELEASE-javadoc.jar
-spring-jcl-5.0.3.RELEASE-javadoc.jar
-spring-web-5.0.3.RELEASE.jar
-spring-jms-5.0.3.RELEASE-sources.jar
-spring-core-5.0.3.RELEASE.jar
-spring-context-indexer-5.0.3.RELEASE-sources.jar
-spring-instrument-5.0.3.RELEASE.jar
-spring-context-5.0.3.RELEASE.jar
-spring-messaging-5.0.3.RELEASE-sources.jar
-spring-expression-5.0.3.RELEASE-sources.jar
-spring-messaging-5.0.3.RELEASE.jar
-spring-jcl-5.0.3.RELEASE-sources.jar
-spring-jcl-5.0.3.RELEASE.jar
-spring-orm-5.0.3.RELEASE-sources.jar
-spring-webmvc-5.0.3.RELEASE.jar
-spring-oxm-5.0.3.RELEASE-javadoc.jar
-spring-expression-5.0.3.RELEASE.jar
-spring-oxm-5.0.3.RELEASE.jar
-spring-core-5.0.3.RELEASE-javadoc.jar
-spring-jms-5.0.3.RELEASE.jar
-spring-test-5.0.3.RELEASE-javadoc.jar
-spring-test-5.0.3.RELEASE-sources.jar
-spring-jdbc-5.0.3.RELEASE.jar
-spring-tx-5.0.3.RELEASE-sources.jar
-spring-aop-5.0.3.RELEASE-javadoc.jar
-spring-tx-5.0.3.RELEASE-javadoc.jar
-spring-orm-5.0.3.RELEASE.jar
-spring-tx-5.0.3.RELEASE.jar
-spring-oxm-5.0.3.RELEASE-sources.jar
-spring-web-5.0.3.RELEASE-javadoc.jar
-spring-context-5.0.3.RELEASE-javadoc.jar
-spring-web-5.0.3.RELEASE-sources.jar
-spring-webflux-5.0.3.RELEASE-sources.jar
-spring-orm-5.0.3.RELEASE-javadoc.jar
-spring-test-5.0.3.RELEASE.jar
-spring-webflux-5.0.3.RELEASE.jar
-spring-webmvc-5.0.3.RELEASE-sources.jar
-spring-websocket-5.0.3.RELEASE-sources.jar
+- antlr-2.7.7.jar
+- c3p0-0.9.5.2.jar
+- classmate-1.3.0.jar
+- dom4j-1.6.1.jar
+- hibernate-c3p0-5.2.13.Final.jar
+- hibernate-commons-annotations-5.0.1.Final.jar
+- hibernate-core-5.2.13.Final.jar
+- hibernate-jpa-2.1-api-1.0.0.Final.jar
+- jaxb-api-2.3.0.jar
+- jandex-2.0.3.Final.jar
+- jboss-logging-3.3.1.Final.jar
+- javax.servlet.jsp.jstl-1.2.1.jar
+- jaxb-core-2.3.0.jar
+- jboss-transaction-api_1.2_spec-1.0.1.Final.jar
+- javax.servlet.jsp.jstl-api-1.2.1.jar
+- jaxb-impl-2.3.0.jar
+- javax.activation-1.2.0.jar
+- javassist-3.22.0-GA.jar
+- mchange-commons-java-0.2.11.jar
+- mysql-connector-java-5.1.39-bin.jar
+- spring-instrument-5.0.3.RELEASE-javadoc.jar
+- spring-aop-5.0.3.RELEASE.jar
+- spring-beans-5.0.3.RELEASE-sources.jar
+- spring-websocket-5.0.3.RELEASE-javadoc.jar
+- spring-webmvc-5.0.3.RELEASE-javadoc.jar
+- spring-jdbc-5.0.3.RELEASE-javadoc.jar
+- spring-webflux-5.0.3.RELEASE-javadoc.jar
+- spring-jdbc-5.0.3.RELEASE-sources.jar
+- spring-beans-5.0.3.RELEASE-javadoc.jar
+- spring-aspects-5.0.3.RELEASE-sources.jar
+- spring-context-indexer-5.0.3.RELEASE.jar
+- spring-jms-5.0.3.RELEASE-javadoc.jar
+- spring-core-5.0.3.RELEASE-sources.jar
+- spring-expression-5.0.3.RELEASE-javadoc.jar
+- spring-context-5.0.3.RELEASE-sources.jar
+- spring-beans-5.0.3.RELEASE.jar
+- spring-context-support-5.0.3.RELEASE-javadoc.jar
+- spring-context-support-5.0.3.RELEASE-sources.jar
+- spring-context-support-5.0.3.RELEASE.jar
+- spring-aop-5.0.3.RELEASE-sources.jar
+- spring-websocket-5.0.3.RELEASE.jar
+- spring-aspects-5.0.3.RELEASE.jar
+- spring-messaging-5.0.3.RELEASE-javadoc.jar
+- spring-instrument-5.0.3.RELEASE-sources.jar
+- spring-context-indexer-5.0.3.RELEASE-javadoc.jar
+- spring-aspects-5.0.3.RELEASE-javadoc.jar
+- spring-jcl-5.0.3.RELEASE-javadoc.jar
+- spring-web-5.0.3.RELEASE.jar
+- spring-jms-5.0.3.RELEASE-sources.jar
+- vspring-core-5.0.3.RELEASE.jar
+- spring-context-indexer-5.0.3.RELEASE-sources.jar
+- spring-instrument-5.0.3.RELEASE.jar
+- spring-context-5.0.3.RELEASE.jar
+- spring-messaging-5.0.3.RELEASE-sources.jar
+- spring-expression-5.0.3.RELEASE-sources.jar
+- spring-messaging-5.0.3.RELEASE.jar
+- spring-jcl-5.0.3.RELEASE-sources.jar
+- spring-jcl-5.0.3.RELEASE.jar
+- spring-orm-5.0.3.RELEASE-sources.jar
+- spring-webmvc-5.0.3.RELEASE.jar
+- spring-oxm-5.0.3.RELEASE-javadoc.jar
+- spring-expression-5.0.3.RELEASE.jar
+- spring-oxm-5.0.3.RELEASE.jar
+- spring-core-5.0.3.RELEASE-javadoc.jar
+- spring-jms-5.0.3.RELEASE.jar
+- spring-test-5.0.3.RELEASE-javadoc.jar
+- spring-test-5.0.3.RELEASE-sources.jar
+- spring-jdbc-5.0.3.RELEASE.jar
+- spring-tx-5.0.3.RELEASE-sources.jar
+- spring-aop-5.0.3.RELEASE-javadoc.jar
+- spring-tx-5.0.3.RELEASE-javadoc.jar
+- spring-orm-5.0.3.RELEASE.jar
+- spring-tx-5.0.3.RELEASE.jar
+- spring-oxm-5.0.3.RELEASE-sources.jar
+- spring-web-5.0.3.RELEASE-javadoc.jar
+- spring-context-5.0.3.RELEASE-javadoc.jar
+- spring-web-5.0.3.RELEASE-sources.jar
+- spring-webflux-5.0.3.RELEASE-sources.jar
+- spring-orm-5.0.3.RELEASE-javadoc.jar
+- spring-test-5.0.3.RELEASE.jar
+- spring-webflux-5.0.3.RELEASE.jar
+- spring-webmvc-5.0.3.RELEASE-sources.jar
+- spring-websocket-5.0.3.RELEASE-sources.jar
