@@ -1,16 +1,23 @@
 # Spring MVC CRUD Demo
 
-## Brief
-This is a basic CRUD app built with Spring 5 that uses a MySql server. It represents a Customer Relationship Manager where the user can Create new customers, Update customers, and Delete customers. The user sees a table listing all the customers in the main page. This is my first use of the Spring framework, however there are many aspects like Security that I haven't explored yet. Potential improvements in the future: Validation (server side and client side), Spring Security, Spring Session.
+## Summary
+
+This is a basic CRUD application built with Spring 5 that connects to a MySql database via Hibernate. The application prototypes a Customer Relationship Manager that can Create customers, Update customers, and Delete customers on the database. 
+
+This is my first Spring 5 application and I learned some of the core processes behind Spring, such as Spring Beans (Scopes and Lifecycle), Inversion of Control, Dependency Injection, Hibernate Transactions and HQL. Potential areas of improvement: Validation (client-side and server-side), implementation of Spring Security and Spring Session. 
 
 ## Video
 
 [This video demonstrates all the CRUD features of the app: https://www.youtube.com/watch?v=ItVp3kuL2Rs](https://www.youtube.com/watch?v=ItVp3kuL2Rs).
 
-Images:
+## Images
 
-![main](https://lh3.googleusercontent.com/JFXSePoi6IIOjbP9zRW9B_98j3HBPdbJ56LW8-EdzJT0n9cUvmAgSHegwP8E4EpNJCGIrajNBJuZZ8R4eqt8uTaBMfDG9FC-Rq_8SpXuPBxfcznOD1YHm20hEU4S8ylD3R7_pf4Q5FQPX0R7qj5-1fyRVAqxj5S3KXZXCffUD5P9C_ssbDpTsdSBmhXmQztnRpMRYeWpB-7I6VrMfDDEDy2oHKd8FAEmKh-xiKYL5Jp4YfLB2Do6SPIzT5ZRxHHpVRLkrhLtRz5EQekq7WTMaRPZqTcDVYb-wt12KYU296OCIVXJgW-8kFr8an_sjzW3ZrmBUpmfMXhp5fWcYGPziedcQoS_RaVQM4fZxgdhE0n26kgOIv5MSZrFe1-435Cv-Z9FKuvlEIYd4XUc2ygDU-ZWGcQJITyvW9upVHVmcoipaR8JNDKEcnPAVw04PoiMUhH_HSaQ0pqE3zHSQmLj8iRKwEZBi4vFMb9gklvY63fDA2Dt3EZR4azSE8O0eoa1zMCL2jTIwewpYtIrglqow65AYft4mOXzpTJGMGbXw5_2FkbZsy1DiNqcTwkaaZFsYZ0RLV9hdb7x40y7ZEA5Gs-ANNDqR9dE9VL136pRnrIFQ-sOXkJ8FqRMS7mHnH4q8wJH2nA1OQRix4XY3U173GhQJypqkuE=w882-h659-no "main")
+![main](https://i.imgur.com/XPyv59U.png)
 
-![main](https://lh3.googleusercontent.com/PmeJcpQ6XAZnR-d507Eq4tbdTKTt4eSa2aW5bIybxNCi7aDBVEMX0xck4qTs0VSlTugma6ssWtAHkOWG8QVhfLvE4tCgFDicpEUAzjXfW0JYqkhgiJX1DFDnab8ku1QEE10fPzSfcklx7tqofw7H1gJUQS77yGAtOV3n2-qZ8hElQU7bj9hYQUfXoW7cA1Nc8wd5NxciHBTTAO8dEE61MAzDMk642eB3tiQvBPtTcH411ZvFy5l6hevIqA5I0GEuoEDRm89bZZ6Cqvay6ORplB88fMylxd0C6SG2Fwqh240A0tFbsMdxZ2Azp4vMBZSr7CfMkamLKruVxuGYwphbW4YpORKYcpKnmKFnkV2Kk5GF-ZjB8dH8xoF24d46DcbmAMNfu_NRHVSUlsKNvsrp2Jjy3X8hI_R0zGoY4opHxnvTotOTtqNTp9ITLgUZfbjcT6IWRt4wflER17qoXMBl5jYjv-X2ApuApsgflTPxJBS9XLCS-BMwx9th9sExf-NgJTtZOXcRC3laDSUSMdWa26UDA-KXgPkW0qYLtFTO-30lyepGADXFuTDGwYWUnK1dl6jwjfml41cOQHAXceovcmYMzYaBFw0O61VeQQ=w882-h659-no "main")
+![crud](https://i.imgur.com/C3GzfrK.png)
 
-![main](https://lh3.googleusercontent.com/GEeahhuryzpFIhkcnIxFPulf-8k34POyC2s1TR4cUDbwSyjxNEqhnv9J0NJK8f_eLOnHytwFlJG6xKofVgIelA2dAKBnR_UthM4_v60sWfEO4QwTNMkjsHFzY8dpKBpj6gQPeScyPFt7jT8E251bu6qGt4EZqx3xKdIOZIiY2hLpLq4zsXqNBJ36UnCkKngOf64RHDbmzzqwvAZXZb9EDBlG1VY1BQxlyhugUcIth2sRAHzyUINXremnkGJHmIsduHWVSkNE6_-DSkB1ZbknmDwchvbvGD7QRF4-EL4yW6cqmzgd2JWIyNXQBr6qaWxz2pZcXG9b2xDvTrwreNGSr776zDhhRcc3dFAqizo0Ng1WmyJUZjDEEZcs7BvgGuoZmg3u-FUjf4QSGqPSqkLNwJBLc-HcxHAlDAunTzlokTZtK3mxo7ymljjO4vZrga7OnrwpzOn5MOR7Hdk_yLCCo10lUQW4YJPOp6peECSwf6jMlnegT5r-L6HTYSkOTN1NwhTpabkVLlCUff38KC_TSlXQznBZXQDkO6kjwhQqBV5bnKzcjp0ycWhaJB09pN8red3vxK9RuGOWN0BuIvaEvBSsRHoj39GF3sJiTg=w682-h514-no "main")
+![mysql](https://i.imgur.com/SybfKJ1.png)
+
+## Reference
+
+Spring & Hibernate for Beginners by Chad Darby @ Udemy.
